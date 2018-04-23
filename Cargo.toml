@@ -14,8 +14,8 @@ description = "Integration of `amethyst` and `rhusics`"
 keywords = ["gamedev", "amethyst", "physics"]
 
 [dependencies]
-amethyst_core = { version = "0.1.0", git = "https://github.com/amethyst/amethyst", branch = "develop" }
-amethyst_renderer = { version = "0.6.1", git = "https://github.com/amethyst/amethyst", branch = "develop" }
+amethyst_core = { git = "https://github.com/rhuagh/amethyst", branch = "feature/transform-rhusics-psoe" }
+amethyst_renderer = { git = "https://github.com/rhuagh/amethyst", branch = "feature/transform-rhusics-psoe" }
 rhusics-ecs = { git = "https://github.com/rustgd/rhusics", branch = "master" }
 rhusics-core = { git = "https://github.com/rustgd/rhusics", branch = "master" }
 rhusics-transform = { git = "https://github.com/rustgd/rhusics", branch = "master" }
@@ -24,6 +24,6 @@ shrev = "0.8"
 collision = { version = "0.15", features = ["eders"]}
 
 [dev-dependencies]
-amethyst = { version = "0.6.0", git = "https://github.com/amethyst/amethyst", branch = "develop" }
+amethyst = { git = "https://github.com/rhuagh/amethyst", branch = "feature/transform-rhusics-psoe" }
 genmesh = "0.5"
 rand = "0.3"
