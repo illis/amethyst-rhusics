@@ -7,6 +7,7 @@ use rhusics_ecs::WithRigidBody;
 use rhusics_ecs::physics2d::{BodyPose2, Mass2};
 use rhusics_ecs::physics3d::{BodyPose3, Mass3};
 use specs::World;
+use transform::Transform;
 
 /// Setup 2D arena.
 ///

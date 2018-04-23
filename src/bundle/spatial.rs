@@ -15,7 +15,7 @@ use rhusics_ecs::physics3d::{ContactResolutionSystem3, CurrentFrameUpdateSystem3
 use shrev::EventChannel;
 use specs::{DispatcherBuilder, Entity, World};
 
-use default::{PoseTransformSyncSystem2, PoseTransformSyncSystem3};
+//use default::{PoseTransformSyncSystem2, PoseTransformSyncSystem3};
 
 /// Bundle for configuring 2D physics, using the spatial collision detection setup in rhusics.
 ///
